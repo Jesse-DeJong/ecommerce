@@ -1,3 +1,41 @@
+MVP
+Two pages:
+• Home Page
+o Carousel of featured products
+o Grid of products
+• Product Page (with id parameter) - like a product page on another site, allows 
+you to add to a cart and select product variants
+All products should be stored in Firestore. You should hold the following information:
+• quantity
+• variants (could be colours, sizes, etc.)
+• price per unit
+• name
+• image URL
+• favourited or not (Boolean)
+All data should be stored in Firestore and fetched by the front-end. There should be NO 
+static product data in the react application.
+Make sure your site is scoped to one category of products
+Bonus
+Using Firestore and react, create a cart system. Create a cart page in your react app.
+Add logic to prevent users from adding items to the cart that are no longer in stock. You 
+will have to check the current cart and the product quantity Cart page should have the 
+following:
+• List of products in the cart
+• ability to change the number of products in the cart
+• ability to remove items from the cart
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
