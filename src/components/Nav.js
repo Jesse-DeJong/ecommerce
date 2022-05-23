@@ -5,7 +5,7 @@ const Nav = () => {
             margin: '5px'
         }
     }
-    
+    // eslint-disable-next-line
     return (
         <section style={style.section}>
             <ul className="nav nav-tabs">
