@@ -1,21 +1,25 @@
 const Nav = () => {
+    
+    const style = {
+        section: {
+            margin: '5px'
+        }
+    }
+    
     return (
-        <>
+        <section style={style.section}>
             <ul className="nav nav-tabs">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Active</a>
+                  <a className="nav-link active" aria-current="page" href="/ecommerce">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Link</a>
+                  <a className="nav-link disabled" href="#">Deals</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Link</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link disabled">Disabled</a>
+                  <a className="nav-link disabled" href="#">Cart</a>
                 </li>
             </ul>
-        </>
+        </section>
     )
 }
 
