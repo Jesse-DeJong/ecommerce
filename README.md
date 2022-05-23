@@ -6,12 +6,13 @@ A webpage showing a range of products and offers a user can browse, favourite an
 ![](./sitess.png)
 
 ### How to install/run the project:
-The project can be cloned to your local machine and accessed via `npm start`, alternatively it should be available hosted on github pages at `https://jesse-dejong.github.io/ecommerce/`.
+The project can be cloned to your local machine and accessed via `npm start`, alternatively it should be available hosted on github pages at .
 
 ### Implementation:
 This implementation utilises the React framework and component structure to parse the database of products from Firebase/Firestore and dynamically generate its selection. This allows for easy scaling as any future products will inherit the structure and styling of the existing page elements and operates very well in tandem with the cloud database.
 
 ### Future goals/extensions:
+- Fix issues with hosting
 - Make it prettier!
 - Implement the MVP Bonus =>
 Using Firestore and react, create a cart system. Create a cart page in your react app.
